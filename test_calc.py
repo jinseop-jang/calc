@@ -8,3 +8,7 @@ def test_get_sum():
     c = Calc()
     assert 3 == c.getSum(1, 2)
 
+def test_getZegop():
+    calc = Calc()
+    for num in range(100):
+        assert calc.getZegop(num) == num * num
