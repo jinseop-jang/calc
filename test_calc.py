@@ -1,8 +1,13 @@
 from calc import Calc
 import pytest
 
+from calc import Calc
 
 
+def test_get_minus():
+    calc = Calc()
+    assert calc.get_minus(7, 2) == 5
+    assert calc.get_minus(2, 7) == -5
 
 def test_getDivide():
     calc = Calc()
@@ -35,3 +40,4 @@ def test_getZegop():
     calc = Calc()
     for num in range(100):
         assert calc.getZegop(num) == num * num
+

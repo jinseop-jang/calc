@@ -1,5 +1,9 @@
 class Calc:
 
+    def get_minus(self, num1, num2):
+        return  num1 - num2
+
+
     def getDivide(self,param1, param2):
         try:
             return round(param1/param2, 2)
