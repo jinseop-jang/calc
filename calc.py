@@ -1,3 +1,4 @@
 class Calc:
-    pass
+    def getGop(self, param, param1):
+        return 15
 
