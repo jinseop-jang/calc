@@ -1,3 +1,4 @@
 class Calc:
-    pass
+    def getZegop(self, a : int):
+        return a * a
 
