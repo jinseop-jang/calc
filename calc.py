@@ -1,4 +1,4 @@
 class Calc:
-    def getGop(self, param, param1):
-        return 15
+    def getGop(self, num1, num2):
+        return num1*num2
 
