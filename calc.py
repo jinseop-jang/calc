@@ -1,4 +1,4 @@
 class Calc:
 
-    def getSum(self, param, param1):
-        return param + param1
+    def getSum(self, left, right):
+        return left + right
